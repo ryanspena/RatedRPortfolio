@@ -1,0 +1,108 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Rock Salt', cursive;
+}
+
+header {
+    padding: 10px 15px 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background-image: url(.//images/pexels-elti-meshau-333850.jpg);
+    background-size: cover;
+    background-position: 80%;
+    background-attachment: fixed;
+    z-index: 9999;
+  }
+
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 36px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+header a {
+  text-decoration: none;
+  color: gray;
+}
+
+header nav {
+    float: right;
+    margin: 7px 0;
+  }
+  
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 25px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+section {
+    padding: 60px;
+}
+
+.intro {
+  background-image: url(./images/pexels-elti-meshau-333850.jpg);
+  background-size: cover;
+  background-position: 80%;
+  /* display: flex; */
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  align-items: flex-start;
+  background-attachment: fixed;
+}
+
+/* .rated-r {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+} */
+
+.rated-r img {
+  width: 30%;
+  float: left;
+  flex-wrap: wrap;
+}
+
+.section-title {
+    font-size: 20px;
+    /* border-bottom: 1px solid; */
+    padding-bottom: 10px;
+    text-align: left;
+    margin: 0 auto 10px auto;
+    width: 10%;
+    color: gray;
+  }
+  
+.intro p {
+    line-height: 1.0;
+    color: gray;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: right;
+  }
+
+.bio {
+  padding: 20px;
+  line-height: 1.3;
+}
