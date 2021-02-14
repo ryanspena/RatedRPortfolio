@@ -7,6 +7,11 @@
 body {
   background-color: black;
   font-family: 'Trebuchet MS', Arial, cursive;
+  background-image: url(.//images/pexels-elti-meshau-333850.jpg);
+  background-size: cover;
+  background-position: 80%;
+  background-attachment: fixed;
+
 }
 
 header {
@@ -16,10 +21,10 @@ header {
     flex-wrap: wrap;
     position: sticky;
     top: 0;
-    background-image: url(.//images/pexels-elti-meshau-333850.jpg);
+    /* background-image: url(.//images/pexels-elti-meshau-333850.jpg);
     background-size: cover;
     background-position: 80%;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     /* z-index: 9999; */
   }
 .R {
